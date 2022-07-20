@@ -1,0 +1,43 @@
+.media {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* min-height: 325px; */
+  /* width: 300px; */
+  padding: 5px;
+  margin: 5px 0;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  position: relative;
+}
+
+.media:hover {
+  background-color: #86888b;
+  color: black;
+}
+
+@media (max-width: 550px) {
+  .media {
+    width: 90%;
+  }
+}
+
+.poster {
+  border-radius: 10px;
+  height: 200px;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  font-size: 17px;
+  padding: 8px 0;
+}
+
+.subTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 3px;
+  padding: 0 2px;
+}
